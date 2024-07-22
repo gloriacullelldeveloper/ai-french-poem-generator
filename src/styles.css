@@ -1,6 +1,6 @@
 body {
 
-    background-color: beige;
+    background-color: #ddeedf;
 }
 
 .container {
@@ -11,19 +11,54 @@ body {
 h1 {
 
     text-align: center;
+    padding: 5px 5px 20px 5px;
 }
 
 form {
 
-    text-align: center;
-    padding: 10px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.instructions {
+
+    padding: 15px;
+    border: 1px #757a79;
+    width: 80%;
+    font-size: 15px;
+    border-radius: 20px;
+    color: #d3d6db;
+    
+   
+}
+
+.submit-button {
+
+    margin-left: 10px;
+    background-color: #0a0944;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 15px;
+
 }
 
 .poem {
 
-    text-align: center;
+    
     padding: 15px;
     font-style: italic;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #fffdf6;
+    margin: 15px;
+    border-radius: 3px;
+    border-left: 2px solid #004445;
+
 }
 
 footer {
