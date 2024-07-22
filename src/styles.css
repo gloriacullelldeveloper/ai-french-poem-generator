@@ -3,6 +3,11 @@ body {
     background-color: beige;
 }
 
+.container {
+
+    margin: 120px auto;
+    max-width: 600px;
+}
 h1 {
 
     text-align: center;
