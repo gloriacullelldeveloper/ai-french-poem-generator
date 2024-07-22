@@ -8,6 +8,19 @@ h1 {
     text-align: center;
 }
 
+form {
+
+    text-align: center;
+    padding: 10px;
+}
+
+.poem {
+
+    text-align: center;
+    padding: 15px;
+    font-style: italic;
+}
+
 footer {
 
     text-align: center;
