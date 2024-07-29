@@ -6,14 +6,17 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css">
-    <title>AI Poem Generator</title>
+    <title>AI Italian Poem Generator</title>
 </head>
 <body>
+    <div class="first-container">
     <div class="container">
     <h1>AI Italian Poem Generator</h1>
 
      <main>
-        <form id="poem-generator-form">
+        <div class="form-container">
+
+         <form id="poem-generator-form">
 
             <input type="text" 
             placeholder="Enter the topic of the Italian Poem" 
@@ -24,12 +27,19 @@
 
             <input type="submit" class="submit-button" />
             
-        </form>
-        <div class="poem" id="poem">
-            
+         </form>
+
+        <div class="little-text">example: Flowers, Sun, Cat,...</div>
+
         </div>
+
+        <div class="poem" id="poem"></div>
+
      </main>
     
+    </div>
+    
+
     <footer>This AI Project was coded by <a href="https://github.com/gloriacullelldeveloper" target="_blank">Gloria Cullell</a>
         , is <a href="https://github.com/gloriacullelldeveloper/ai-french-poem-generator" target="_blank">open-sourced on Github</a> and 
         <a href="https://main--ai-italian-poem-generator-gloria.netlify.app/" target="_blank">hosted on Netlify</a></footer>

@@ -1,27 +1,56 @@
 body {
 
-    background-color: #ddeedf;
+    
+    background-color: #132743;
+
+}
+
+.first-container {
+
+    max-width: 850px;
+    margin: 190px auto;
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+    border-radius: 10px;
+    padding-top: 5px;
+    
 }
 
 .container {
 
-    margin: 120px auto;
-    max-width: 600px;
+    margin: 100px auto;
+    max-width: 700px;
 }
+
 h1 {
 
     text-align: center;
-    padding: 5px 5px 20px 5px;
+    font-size: 40px;
+    color: black;
+    padding-bottom: 20px;
+
+
 }
 
-form {
+.form-container {
 
     padding: 20px;
     background-color: white;
     border: 1px #757a79;
     border-radius: 10px;
+
+}
+
+form {
+
     display: flex;
     
+}
+
+.little-text {
+
+    padding: 5px 10px;
+    font-style: italic;
+    color: darkgrey;
 }
 
 .instructions {
@@ -51,7 +80,7 @@ form {
 .poem {
 
     
-    padding: 15px;
+    padding: 10px;
     font-style: italic;
     font-size: 16px;
     line-height: 24px;
@@ -66,4 +95,5 @@ footer {
 
     text-align: center;
     color: black;
+    padding-bottom: 10px;
 }
