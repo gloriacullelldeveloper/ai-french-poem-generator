@@ -90,7 +90,13 @@ form {
     margin: 15px;
     border-radius: 3px;
     border-left: 2px solid #004445;
+    
 
+}
+
+.hidden {
+
+    display: none;
 }
 
 footer {

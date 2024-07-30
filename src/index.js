@@ -26,10 +26,14 @@ function showPoem(event) {
      let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
     /* call to the API*/
 
+    let poemElement = document.querySelector("#poem");
+    poemElement.classList.remove("hidden");
+
     axios.get(apiUrl).then(displayPoem);
 
    
 }
+
 
 
 let selectForm = document.querySelector("#poem-generator-form");
