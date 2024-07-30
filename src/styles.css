@@ -83,6 +83,7 @@ form {
 
     
     padding: 10px;
+    text-align: left;
     font-style: italic;
     font-size: 16px;
     line-height: 24px;
@@ -101,9 +102,7 @@ form {
 
 .generating {
     
-    
     animation: blink-animation 1s steps(5, start) infinite;
-
 
 }
 
@@ -123,5 +122,5 @@ footer {
 
     text-align: center;
     color: black;
-    padding-bottom: 10px;
+    padding-bottom: 22px;
 }
